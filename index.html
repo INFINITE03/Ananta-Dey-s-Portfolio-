@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ananta Dey's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <!-- Nav Bar -->
+        <nav>
+            <!-- Title left side  -->
+            <div class="left-logo-name">Ananta</div>
+            <!-- content right side  -->
+            <div>
+                <ul>
+                    <li class="home act-nav-item"><a href="index.html">Home</a></li>
+                    <li class="about-nav"><a href="#about-nav">About</a></li>
+                    <li class="edu"><a href="#edu" id="btn-edu">Education</a></li>
+                    <li class="cetificate"><a href="#cetificate" id="btn-certificate">Achievements</a></li>
+                    <li class="social"><a href="#social" id="btn-social">Social</a></li>
+                    <li class="contactMe"><a href="#contactMe" id="btn-contact">Contact Me</a></li>
+                    <!-- </ul> -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ================== Main interface Section =============================  -->
+        <section class="first-section" id="home">
+            <div class="left-section" data-aos="fade-right">
+                <div class="ls-heading">HELLO THERE!</div>
+                <div class="ls-sub-heading">My Name Is <span class="ananta-word">ANANTA DEY.</span></div>
+                <div class="ls-sub-heading" style="margin-bottom: 1rem;">I am a passionate</div>
+
+                <!-- Element to contain animated typing -->
+                <div><span id="element"></span></div>
+
+                <!-- BUtton CV download  -->
+                <a href="My CV/ANANTA DEY CV.pdf" download target="_blank"><button class="btn-resume"><span class="text">MY
+                            RESUME</span><span>DOWNLOAD</span></button></a>
+            </div>
+
+            <!-- Image Section left side  -->
+            <div class="right-section" data-aos="fade-up">
+                <img src="img.png">
+            </div>
+        </section>
+
+        <hr class="hr1-sec1">
+
+        <!-- ================== About me Section =============================  -->
+
+        <section class="second-section" id="about-nav">
+            <div class="left-cntr-2nd-sec">
+                <img src="img.png">
+            </div>
+            <div class="right-cntr-2nd-sec" data-aos="zoom-in-up">
+                <div class="abt-me-heading">About Me</div>
+                <p class="ananta-men-para"><q> Ananta is a Bengali word, describes things that are endless.English
+                        meaning INFINITE, having to do with something that never, ever ends.</q></p>
+                <div class="abt-list">
+                    <div>
+                        <p>Name: </p>
+                        <p>Date of birth: </p>
+                        <p>Address: </p>
+                        <p>Zip code: </p>
+                        <p>Email: </p>
+                        <p>Phone: </p>
+                    </div>
+                    <div class="abt-details">
+                        <p>Ananta Dey</p>
+                        <p>11th August, 1998</p>
+                        <p>Burdwan, West Bengal, India</p>
+                        <p>713103</p>
+                        <p><a href="mailto:deyananta2@email.com" style="color: #686868">deyananta2@gmail.com</a></p>
+                        <p><a href="tel:918617605682" style="color: #686868">+91 8617605682</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================== Skill Section =============================  -->
+        <section class="third-section">
+            <div class="logo-container">
+                <img src="img/html.png" style="max-width: 5vw; height: 8.5vh;">
+                <img src="img/css.png" style="max-width: 5vw; height: 9.5vh;">
+                <img src="img/js.png" style="max-width: 5vw; height: 9vh;">
+                <img src="img/java.webp" style="width: 8vw; height: 7vh;">
+                <img src="img/c.png" style="max-width: 5vw; height: 8vh;">
+                <img src="img/adobe.webp" style="max-width: 7vw; height: 5.5vh;">
+            </div>
+        </section>
+
+        <!-- ================== Whole details section =============================  -->
+        <section class="fourth-section" id="edu">
+            <div class="slide-bar">
+                <ul>
+                    <li>
+                        <a href="#edu" id="slide-btn-edu"><span class="arrow-active"></span>&nbsp;Education</a>
+                        <a href="#skills" id="slide-btn-skill"><span class="arrow-active"></span>&nbsp;Skill</a>
+                        <a href="#cetificate" id="slide-btn-certificate" ><span class="arrow-active"></span>&nbsp;Certificate</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Right side all content -->
+            <div class="edu-container" id="slideEdu">
+                <p data-aos="zoom-in">Education</p>
+                <!-- Btech Education  -->
+                <div class="edu-details" data-aos="fade-right" data-aos-offset="180" data-aos-easing="ease-in-sine">
+                    <img src="img/edu.png">
+                    <div>
+                        <p class="edu-year">2018 - 2021</p>
+                        <p class="edu-name">Bachelor of Technology in Electrical Engineering</p>
+                        <p class="clg-name">Academy of Technology</p>
+                        <p class="deg-details">I have completed my B.Tech on Electrical Engineering from Academy of
+                            technology, Hoogly, West Bengal, in the year of <span
+                                style="color:rgba(0, 117, 121, 0.664)">2021</span> with <span
+                                style="color:rgb(0, 117, 121, 0.664)">CGPA 8.4</span></p>
+                    </div>
+                </div>
+
+                <!-- Diploma Eduction  -->
+                <div class="edu-details" data-aos="fade-left" data-aos-offset="180" data-aos-easing="ease-in-sine">
+                    <img src="img/edu.png">
+                    <div>
+                        <p class="edu-year">2015 - 2018</p>
+                        <p class="edu-name">Diploma on Electrical Engineering</p>
+                        <p class="clg-name">Durgapur Institute of Polytechnic</p>
+                        <p class="deg-details">I have completed my Diploma on Electrical Engineering from Durgapur
+                            Institute of Polytechnic, Rajbandh, West Bengal, in the year of <span
+                                style="color:rgba(0, 117, 121, 0.664)">2018</span> with <span
+                                style="color:rgb(0, 117, 121, 0.664)">75%</span></p>
+                    </div>
+                </div>
+
+                <!-- Diploma Eduction  -->
+                <div class="edu-details" data-aos="fade-right" data-aos-offset="180" data-aos-easing="ease-in-sine">
+                    <img src="img/edu.png">
+                    <div>
+                        <p class="edu-year">2014 - 2014</p>
+                        <p class="edu-name">Secondary Examination</p>
+                        <p class="clg-name">Ranaghat Nasra Boys High School</p>
+                        <p class="deg-details">I have completed my Secondary examination from Ranaghat Nasra Boys High
+                            School, Nadia, West Bengal, India, in the year of <span
+                                style="color:rgba(0, 117, 121, 0.664)">2014</span> with <span
+                                style="color:rgb(0, 117, 121, 0.664)">66%</span></p>
+                    </div>
+                </div>
+                <section id = "skills">
+                    <div class="skill-container">
+                        <p>Skills</p>
+                        <!-- Circle progress bar skill  -->
+                        <div class="skill-box">
+
+                            <!-- HTML first box  -->
+                            <div class="fst-box" data-aos="zoom-out">
+                                <p>HTML</p>
+                                <div class="circle">
+                                    <div class="percentage-value">92%</div>
+                                </div>
+                                <div class="skill-details">
+                                    <div>
+                                        <p>93%</p>
+                                        <p>Last Week</p>
+                                    </div>
+                                    <hr class="skill-hr-line">
+                                    <div>
+                                        <p>85%</p>
+                                        <p>Last Month</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- CSS Second box  -->
+                            <div class="fst-box" data-aos="zoom-out">
+                                <p>CSS</p>
+                                <div class="circle2">
+                                    <div class="percentage-value2">90%</div>
+                                </div>
+                                <div class="skill-details">
+                                    <div>
+                                        <p>85%</p>
+                                        <p>Last Week</p>
+                                    </div>
+                                    <hr class="skill-hr-line">
+                                    <div>
+                                        <p>80%</p>
+                                        <p>Last Month</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- JS third box  -->
+                            <div class="fst-box" data-aos="zoom-out">
+                                <p>JS</p>
+                                <div class="circle3">
+                                    <div class="percentage-value3">80%</div>
+                                </div>
+                                <div class="skill-details">
+                                    <div>
+                                        <p>90%</p>
+                                        <p>Last Week</p>
+                                    </div>
+                                    <hr class="skill-hr-line">
+                                    <div>
+                                        <p>70%</p>
+                                        <p>Last Month</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Java fourth box -->
+                            <div class="fst-box" data-aos="zoom-out">
+                                <p>JAVA</p>
+                                <div class="circle4">
+                                    <div class="percentage-value4">75%</div>
+                                </div>
+                                <div class="skill-details">
+                                    <div>
+                                        <p>75%</p>
+                                        <p>Last Week</p>
+                                    </div>
+                                    <hr class="skill-hr-line">
+                                    <div>
+                                        <p>70%</p>
+                                        <p>Last Month</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Straight line progress bar  -->
+                <div class="skill-box-2" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <!-- Photoshop skill box -->
+                    <div class="photoshop-box">
+                        <p>Adobe Photoshop</p>
+                        <div class="pgrBar">
+                            <span data-width="95%"></span>
+                        </div>
+                    </div>
+
+                    <!-- Adobe after effect skill box -->
+                    <div class="photoshop-box">
+                        <p>Adobe After Effect</p>
+                        <div class="pgrBar">
+                            <span data-width="60%"></span>
+                        </div>
+                    </div>
+
+                    <!-- Photography skill box -->
+                    <div class="photoshop-box">
+                        <p>Photography</p>
+                        <div class="pgrBar">
+                            <span data-width="90%"></span>
+                        </div>
+                    </div>
+
+                    <!-- Github skill box -->
+                    <div class="photoshop-box">
+                        <p>Github</p>
+                        <div class="pgrBar">
+                            <span data-width="80%"></span>
+                        </div>
+                    </div>
+
+                    <!-- Sql skill box -->
+                    <div class="photoshop-box">
+                        <p>SQL</p>
+                        <div class="pgrBar">
+                            <span data-width="80%"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Certificate Section -->
+                <section id="cetificate">
+                    <div class="edu-container">
+                        <p>CERTIFICATE</p>
+                        <!-- frst Award Education  -->
+                        <div class="edu-details award-width" data-aos="fade-up-left">
+                            <img src="img/edu.png">
+                            <div>
+                                <p class="edu-year">CERTIFICATE OF COMPLETION</p>
+                                <p class="edu-name">JAVA Programming</p>
+                                <p class="clg-name">Great Learning Academy</p>
+                                <p class="deg-details">For successfully completing a free online course on <span
+                                        style="color:rgba(0, 117, 121, 0.664)">November 2021</span></p>
+                            </div>
+                        </div>
+
+                        <!-- Second award  -->
+                        <div class="edu-details award-width" data-aos="fade-up-right">
+                            <img src="img/edu.png">
+                            <div>
+                                <p class="edu-year">CERTIFICATE OF COMPLETION</p>
+                                <p class="edu-name">Front End Development - HTML</p>
+                                <p class="clg-name">Great Learning Academy</p>
+                                <p class="deg-details">For successfully completing a free online course on <span
+                                        style="color:rgba(0, 117, 121, 0.664)">December 2022</span></p>
+                            </div>
+                        </div>
+
+                        <!-- Third award  -->
+                        <div class="edu-details award-width" data-aos="fade-up-left">
+                            <img src="img/edu.png">
+                            <div>
+                                <p class="edu-year">CERTIFICATE OF COMPLETION</p>
+                                <p class="edu-name">Learn CSS Course</p>
+                                <p class="clg-name">Codecademy</p>
+                                <p class="deg-details">Successfully completed all course material in the Learn CSS
+                                    Course on
+                                    <span style="color:rgba(0, 117, 121, 0.664)">5 April, 2023</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Fourth award  -->
+                        <div class="edu-details award-width" data-aos="fade-up-right">
+                            <img src="img/edu.png">
+                            <div>
+                                <p class="edu-year">CERTIFICATE OF COMPLETION</p>
+                                <p class="edu-name">Learn the Command Line Course</p>
+                                <p class="clg-name">Codecademy</p>
+                                <p class="deg-details">Successfully completed all course material in the LEARN CSS
+                                    COURSE on
+                                    <span style="color:rgba(0, 117, 121, 0.664)">20 March, 2023</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Fifth award  -->
+                        <div class="edu-details award-width" data-aos="fade-up-left">
+                            <img src="img/edu.png">
+                            <div>
+                                <p class="edu-year">CERTIFICATE OF COMPLETION</p>
+                                <p class="edu-name">Learn Git & GitHub Course</p>
+                                <p class="clg-name">Codecademy</p>
+                                <p class="deg-details">Successfully completed all course material in the LEARN CSS
+                                    COURSE on
+                                    <span style="color:rgba(0, 117, 121, 0.664)">23 March, 2023</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Sixth award  -->
+                        <div class="edu-details award-width" data-aos="fade-up-right">
+                            <img src="img/edu.png">
+                            <div>
+                                <p class="edu-year">CERTIFICATE OF COMPLETION</p>
+                                <p class="edu-name">Learn Bootstrap Course</p>
+                                <p class="clg-name">Codecademy</p>
+                                <p class="deg-details">Successfully completed all course material in the LEARN CSS
+                                    COURSE on
+                                    <span style="color:rgba(0, 117, 121, 0.664)">12 April, 2023</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <hr class="hr1-sec2">
+        </section>
+
+
+        <Section class="fifth-section" id="social">
+            <div class="contact-ctnr">
+                <div class="social-cntr">
+                    <img class="bck-img-social" src="img/bck-img.jpg" alt="not-loaded">
+                    <span class="solid-color">
+                        <p class="contact-heading">SOCIAL</p>
+                        <p class="git-details">I invite you to explore my projects and professional achievements. You
+                            can find me on GitHub, where I actively collaborate on various coding endeavors. GitHub
+                            serves as a platform for version control, showcasing my coding expertise and project
+                            management skills.</p>
+                        <p class="linkdin-details">Additionally, I maintain an active presence on LinkedIn, the leading
+                            professional networking platform. You can visit my LinkedIn profile to learn more about my
+                            professional background, connect with me, and stay updated on my latest ventures.</p>
+                        <button class="github-btn btn-glow"><a href="https://github.com/INFINITE03"
+                                target="_blank">GitHub</a></button>
+                        <button class="linkdin-btn btn-glow"><a href="https://www.linkedin.com/in/anantadey"
+                                target="_blank">Linkdin</a></button>
+                    </span>
+                </div>
+            </div>
+            </div>
+        </Section>
+
+        <Section class="six-section" id="contactMe">
+            <div class="cntact-heading">Contact Me</div>
+            <p class="cntct-para">Get in touch with me to discuss collaborations, projects, or any inquiries related to
+                my portfolio.</p>
+            <div class="conatact-container">
+                <div class="facebook" data-aos="flip-left" data-aos-duration="1500">
+                    <img src="img/fb.png" alt="NOt Loaded">
+                    <a href="https://www.facebook.com/ananta.dey.925/" target="_blank">Facebook</a>
+                </div>
+                <div class="facebook" data-aos="flip-up" data-aos-duration="1500">
+                    <img src="img/twitter.png" alt="NOt Loaded">
+                    <a class="twitter" href="https://twitter.com/Ananta_03" target="_blank">Twitter</a>
+                </div>
+                <div class="facebook" data-aos="flip-down" data-aos-duration="1500">
+                    <img class="emailimg" src="img/email.png" alt="NOt Loaded">
+                    <a class="email" href="mailto:deyananta2@email.com" target="_blank">Email</a>
+                </div>
+                <div class="facebook" data-aos="flip-right" data-aos-duration="1500">
+                    <img src="img/youtube.png" alt="NOt Loaded">
+                    <a class="youtube" href="https://www.youtube.com/@GamerInfiniteYT" target="_blank">Youtube</a>
+                </div>
+            </div>
+            <div class="cont-me-container">
+                <div class="my-img">
+                    <img src="img.png">
+                </div>
+                <div class="form-cntct">
+                    <input class="inpt-box" placeholder="Your Message">
+                    <input class="inpt-box" placeholder="Your Email">
+                    <input class="inpt-box" placeholder="Your Subject">
+                    <textarea class="inpt-box" cols="30" rows="7"></textarea>
+                    <button class="send-msg-btn" type="submit">SEND MESSAGE</button>
+                </div>
+            </div>
+        </Section>
+    </main>
+    <footer>
+        <div class="footer-cntnr">
+            <div class="four-container">
+                <!-- Address container -->
+                <div class="address" data-aos="fade-up" data-aos-duration="1000">
+                    <li>Address</li>
+                    <div>
+                        <img src="img/location.png">
+                        <li>Gopal Nagar Ghow Dhor Chatti, P.O- Sripally, Dis- Burdwan, State - West Bengal, India.</li>
+                    </div>
+                    <div>
+                        <img src="img/phone.png">
+                        <li><a class="phn-mail-style" href="tel:+918617605682">+91 8617605682</a></li>
+                    </div>
+                    <div>
+                        <img src="img/email-icon.png">
+                        <li><a class="phn-mail-style" href="mailto:deyananta2@gmail.com">deyananta2@gmail.com</a></li>
+                    </div>
+                    <div class="all-icon">
+                        <a href="https://www.facebook.com/ananta.dey.925/" target="_blank"><img
+                                src="img/fb-icon.png"></a>
+                        <a href="https://twitter.com/Ananta_03" target="_blank"><img src="img/twitter-icon.png"></a>
+                        <a href="https://www.instagram.com/infinite_031/" target="_blank"><img
+                                src="img/insta-icon.png"></a>
+                    </div>
+                </div>
+
+                <!-- Address container -->
+                <div class="links" data-aos="fade-up" data-aos-duration="2000">
+                    <p>Links</p>
+                    <div class="all-link">
+                        <a href="index.html">&rarr; Home</a>
+                        <a href="#about-nav" id="ftr-btn-about">&rarr; About</a>
+                        <a href="#edu" id="ftr-btn-edu">&rarr; Education</a>
+                        <a href="#cetificate" id="ftr-btn-certi">&rarr; Achievements</a>
+                        <a href="#social" id="ftr-btn-social">&rarr; Social</a>
+                        <a href="#contactMe" id="ftr-btn-contact">&rarr; Contact</a>
+                    </div>
+                </div>
+
+                <!-- Address container -->
+                <div class="about" data-aos="fade-up" data-aos-duration="3000">
+                    <p class="abt-heading">About</p>
+                    <p class="abt-des">Hi, my name is Ananta Dey. I am a Full Stack JAVA Web Developer.</p>
+                    <p>I have completed my Btech as well as Diploma on Electrical Engineering.</p>
+                </div>
+            </div>
+            <div class="copyright-ctnr">
+                <hr class="footer-hr">
+                <p>Copyright ©2023 All rights reserved @Ananta Dey</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- JS CODE  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 900, });
+    </script>
+</body>
+
+</html>

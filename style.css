@@ -1,0 +1,1020 @@
+/* ======== NAVBAR STYLING ======== */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.875rem;
+    background-color: #e1e1e1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 1.4rem;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav div ul li.act-nav-item{
+    background-color: rgba(0, 115, 182, 0.568);
+    padding: 0rem 0.6rem;
+    border-radius: 0.3rem;
+    transition: 0.9s ease background-color;
+}
+
+nav div ul li.act-nav-item a{
+    color: rgb(255, 255, 255);
+}
+.left-logo-name {
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+}
+
+
+
+/* ======== MAIN STYLING ========*/
+
+/* Section 1 Styling */
+.left-section {
+    margin-left: 10rem;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7rem 0 8rem;
+}
+
+
+.first-section>div {
+    width: 40%;
+}
+
+
+
+/* Left side all text styling */
+.ls-heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.ls-sub-heading {
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+
+/* Animation text  */
+#element {
+    color: rgb(41, 62, 199);
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 0.16rem;
+}
+
+
+
+
+/* Cv download Button  */
+.btn-resume {
+    margin-top: 3rem;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #0400e4;
+    color: #18181a;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 10px 18px;
+    text-decoration: none;
+    cursor: pointer;
+    background: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    background-color: rgba(253, 253, 253, 0.479);
+}
+
+.btn-resume span:first-child {
+    position: relative;
+    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 10;
+}
+
+.btn-resume span:last-child {
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 100;
+    opacity: 0;
+    top: 66%;
+    left: 50%;
+    transform: translateY(225%) translateX(-50%);
+    /* height: 14px; */
+    line-height: 13px;
+}
+
+.btn-resume:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transform-origin: bottom center;
+    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 50;
+}
+
+.btn-resume:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+}
+
+.btn-resume:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+
+
+/* Right side img styling  */
+.right-section img {
+    width: 55%;
+}
+
+
+
+
+/* Breakline 1  */
+.hr1-sec1 {
+    margin-inline: auto;
+    width: 90%;
+    color: rgb(192, 192, 192);
+}
+
+
+
+
+/*====================== SECOND SECTION =============================  */
+.second-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+    padding-top: 4rem;
+    background-color: #e7e7e7;
+    height: 83vh;
+}
+
+/* Left container position  */
+.left-cntr-2nd-sec {
+    width: 35%;
+}
+
+.left-cntr-2nd-sec img {
+    margin-left: 6rem;
+    width: 79%;
+}
+
+
+
+
+/* Right side styling  */
+.right-cntr-2nd-sec {
+    height: 75vh;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.26);
+    box-shadow: 1px 1px 30px 5px rgba(0, 0, 0, 0.041);
+}
+
+.right-cntr-2nd-sec {
+    width: 30%;
+}
+
+.right-cntr-2nd-sec>div {
+    padding: 1rem 3rem;
+}
+
+.abt-me-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #0400ff;
+}
+
+.ananta-men-para {
+    margin: 1rem 2rem 2rem;
+    text-align: center;
+    font-style: italic;
+    color: #555555;
+}
+
+/* About List Styling  */
+.abt-list {
+    display: flex;
+    gap: 2rem;
+}
+
+.abt-list div p {
+    padding: 1.2rem 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.abt-details p {
+    font-weight: 300 !important;
+    color: #686868;
+}
+
+.right-cntr-2nd-sec div a {
+    text-decoration: none;
+}
+
+
+
+/*====================== THIRD SECTION =============================  */
+/* Skill img container styling  */
+.third-section {
+    padding: 1rem 2rem;
+    height: 10vh;
+    background-color: #e7e7e7;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    align-items: center;
+}
+
+.logo-container img:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+/*====================== FOURTH SECTION =============================  */
+/* Left container */
+.slide-bar {
+    position: sticky;
+    top: 10rem;
+    padding: 2rem;
+    height: 17vh;
+    width: auto;
+    margin-top: 9rem;
+}
+
+.slide-bar ul li{
+    list-style: none;
+}
+
+.slide-bar ul li a{
+    display: flex;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.6rem 0;
+    font-size: 1.3rem;
+    color: rgb(0, 68, 255);
+}
+
+.arrow-active{
+    margin-top: 0.4rem;
+    margin-right: 0.6rem;
+    rotate: 90deg;
+    border: 1px solid blue;
+    height: 1rem;
+}
+
+
+.fourth-section {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+.fourth-section .slide-bar {
+    /* background-color: red; */
+    width: 20%;
+}
+
+
+.fourth-section .slide-bar p {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    font-weight: 700;
+}
+
+.skill-name-hr:hover {
+    visibility: visible;
+    cursor: pointer;
+}
+
+/* Right side container styling   */
+.edu-container {
+    width: 50%;
+}
+
+
+.edu-container>p {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #0051ffd2
+}
+
+.edu-details {
+    display: inline-flex;
+    padding: 2rem;
+}
+
+
+.edu-details img {
+    width: 1.5vw;
+    height: 3vh;
+    background-color: #0051ff;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+.edu-details div {
+    margin-left: 1rem;
+}
+
+.edu-year {
+    font-weight: 700;
+    color: #0044ff;
+}
+
+.edu-name {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin: 0.3rem 0;
+}
+
+.clg-name {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+}
+
+.deg-details {
+    color: #818181;
+}
+
+
+/* Skill container styling  */
+.skill-container {
+    margin-top: 5rem;
+    width: 60rem;
+    height: 60rem;
+}
+
+.skill-container>p {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #0051ffd2
+}
+
+
+/* Box Styling skill container  */
+/* 1st container */
+.skill-box .fst-box {
+    background-color: white;
+    width: 25%;
+    height: 23.5rem;
+    margin: 2rem 2.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.384);
+}
+
+.fst-box p {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Bellow text with percentage  */
+.skill-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-details {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-details div p:first-child {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+.skill-details p {
+    padding: 0.6rem 1.6rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #757575;
+}
+
+.skill-hr-line {
+    height: 6vh;
+    margin: 2rem 0;
+    color: #75757527;
+}
+
+
+/* HTML Circle 1 styling */
+.circle {
+    position: relative;
+    margin-inline: auto;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    place-items: center;
+    display: grid;
+}
+
+.circle::before {
+    content: "";
+    position: absolute;
+    height: 89%;
+    width: 89%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.percentage-value {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+
+/* CSS circle 2 Styling*/
+.circle2 {
+    position: relative;
+    margin-inline: auto;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    place-items: center;
+    display: grid;
+}
+
+.circle2::before {
+    content: "";
+    position: absolute;
+    height: 89%;
+    width: 89%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.percentage-value2 {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+/* JS circle 3 Styling*/
+.circle3 {
+    position: relative;
+    margin-inline: auto;
+    height: 12rem;
+    width: 12rem;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    place-items: center;
+    display: grid;
+}
+
+.circle3::before {
+    content: "";
+    position: absolute;
+    height: 89%;
+    width: 89%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.percentage-value3 {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+
+
+/* JAVA circle 4 Styling*/
+.circle4 {
+    position: relative;
+    margin-inline: auto;
+    height: 12rem;
+    width: 12rem;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    place-items: center;
+    display: grid;
+}
+
+.circle4::before {
+    content: "";
+    position: absolute;
+    height: 89%;
+    width: 89%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.percentage-value4 {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+
+/* Straight line progress bar  */
+/* conatiner styling */
+.skill-box-2 {
+    display: flex;
+    gap: 1.5rem 3.5rem;
+    flex-wrap: wrap;
+    height: 14rem;
+    width: 60rem;
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+}
+
+
+/* photoshop box  */
+.photoshop-box {
+    height: 4rem;
+}
+
+.photoshop-box p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.pgrBar {
+    width: 17vw;
+    height: 1.6vh;
+    border-radius: 0.2rem;
+    background-color: #ffffff;
+    margin: 0.5rem 0;
+    position: relative;
+}
+
+.pgrBar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    border-radius: 0.2rem;
+    height: 100%;
+    font-size: 0.68rem;
+    background-color: #296cff;
+    color: white;
+    transition: width 1s ease-in-out;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+/* ===================== Award section ========================= */
+.award-width{
+    width: 50rem;
+}
+
+/* LIne break */
+.hr1-sec2{
+    margin-top: 2rem;
+    width: 60%;
+    /* margin-inline: auto; */
+    color: #0000002d;
+}
+
+
+
+
+/* ============================Fifth section================================= */
+.fifth-section{
+    margin: 1.5rem 0;
+}
+
+.contact-ctnr{
+    height: 100%;
+    width: 100%;
+}
+
+.contact-heading{
+    text-align: center;
+    font-weight: 800;
+    font-size: 3.4rem;
+    letter-spacing: 0.5rem;
+    padding: 2rem 0 1rem;
+    color: #a0f669;
+}
+
+
+.git-details{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 1rem 0 1.6rem;
+}
+
+.linkdin-details{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 0 0 1.6rem;
+}
+
+/* Img styling */
+.social-cntr{
+    position: relative;
+}
+
+.bck-img-social{
+    width: 100%;
+    height: auto;
+}
+
+.solid-color{
+    position: absolute;
+    left: 0;
+    background-color: hsla(224, 100%, 53%, 0.466);
+    height: 99%;
+    width: 100%;
+}
+
+
+/* GITHUB LINKDIN BUTTON  */
+
+.github-btn{
+    position: absolute;
+    top: 63%;
+    left: 43%;
+}
+.linkdin-btn{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+}
+
+
+.github-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.3rem 0.4rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.github-btn a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fefffe;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+}
+
+
+
+.github-btn:hover{
+    background-color: rgb(0, 255, 106);
+} 
+
+.linkdin-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.3rem 0.4rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.linkdin-btn a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fefffe;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+}
+
+
+
+.linkdin-btn:hover{
+    background-color: rgb(0, 255, 106);
+} 
+
+/* Button syling */
+
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.801);
+    }
+    
+    50% {
+      box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.644);
+    }
+  }
+
+.btn-glow {
+    box-shadow: 0 0 0 0 rgba(0, 194, 253, 0.356);
+    animation: glow 1.4s linear infinite;
+  }
+
+
+
+
+  /* ========================= Sixth - container ================= */
+.six-section{
+    margin: 5rem 0 0rem;
+}
+.conatact-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3rem auto;
+    width: 80%;
+    height: 100%;
+}
+.cntact-heading{
+    text-align: center;
+    font-weight: 800;
+    font-size: 3.4rem;
+    letter-spacing: 0.5rem;
+    padding: 2rem 0 1rem;
+    color: #000000;
+}
+
+.cntct-para{
+    text-align: center;
+    color: #818181;
+}
+
+/* COnatct icon details */
+.facebook{
+    background-color: rgb(255, 255, 255);
+    width: 14rem;
+    height: 18rem;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 1px 1px 20px 1px rgba(148, 148, 148, 0.308);
+}
+
+.facebook img{
+    width: 2vw;
+    padding: 2rem;
+    background-color: #0051ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 19%;
+    left: 28%;
+}
+.facebook a{
+    position: inherit;
+    top: 69%;
+    left: 25%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.facebook .twitter{
+    left: 32.5%;
+}
+
+.emailimg{
+    width: 3vw !important;
+    padding: 1.5rem !important;
+}
+
+.facebook .email{
+    left: 36.5%;
+}
+
+.facebook .youtube{
+    left: 28.5%
+}
+
+.cont-me-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.my-img img{
+    width: 25vw;
+    height: 100%;
+    background-color: rgba(6, 42, 66, 0.281);
+}
+
+.form-cntct{
+    padding: 3rem 2rem;
+    background-color: #f8f9fa;
+}
+
+.inpt-box{
+    /* background-color: #000000; */
+    display: flex;
+    width: 20rem;
+    padding: 1rem;
+    margin: 2rem;
+    border: 1px solid #ced4da;
+    border-radius: 7px;
+}
+
+
+/* Send msg button */
+.send-msg-btn{
+    cursor: pointer;
+    padding: 1rem;
+    margin: 0rem 2rem;
+    border-radius: 50rem;
+    border: none;
+    background-color: #396eff;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+}
+
+.send-msg-btn:hover{
+    color: black;
+}
+
+
+
+/* ====================== Footer ========================== */
+.footer-cntnr{
+    height: 60vh;
+    background-color: #0e1127;
+    color: #818181;
+}
+
+.four-container{
+    height: 46vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+
+.four-container>div{
+    width: 19rem;
+    height: 20rem;
+    list-style-type: none;
+}
+
+
+/* Address Container  */
+.address{
+    padding: 6rem;
+}
+
+.address img {
+    margin: 0.3rem;
+    padding: 0 0.3rem;
+    width:1vw;
+    height: 2vh;
+}
+.address :nth-child(1){
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.address div{
+    display: flex;
+    margin: 1.9rem 0;
+}
+
+.phn-mail-style{
+    color: #818181 !important; 
+    font-size: 1rem !important;
+    text-decoration: none;
+    font-weight: 400 !important;
+}
+
+/* All icons  */
+.all-icon{
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    height: 4vh;
+    width: 10.5vw;
+}
+
+.all-icon a img{
+    width: 2rem;
+    height: 2.1rem;
+}
+
+
+/* Link containers  */
+.links{
+    /* background-color: rgb(122, 122, 0); */
+    padding: 1rem;
+}
+.links p{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.all-link{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+}
+
+.all-link a{
+    text-decoration: none;
+    padding: 0.5rem 0;
+    color: #818181;
+    width: 45%;
+}
+
+.all-link a:hover{
+    color: white;
+}
+
+
+.about{
+    padding: 1rem;
+}
+
+.abt-heading{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.abt-des{
+    padding: 2rem 0;
+    color: #818181;
+}
+
+
+/* last part of footer  */
+
+.footer-hr{
+    margin: 2rem auto;
+    width: 55%;
+}
+.copyright-ctnr p{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+/* Particular Word Styling */
+.ananta-word {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(41, 62, 199);
+    font-weight: 600;
+}
